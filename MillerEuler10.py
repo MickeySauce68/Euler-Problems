@@ -6,7 +6,7 @@ def prime_alg(x):
     global y
     if x >= 1:
         for a in range(2, x):
-            for b in range(2,10):
+            for b in range(2,x):
                 z = b * a
                 if z == y:
                     return False
